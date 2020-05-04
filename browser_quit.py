@@ -21,7 +21,7 @@ try:
     print(old_hand)
 
     input_1 = browser.find_element_by_id("answer")
-    input_1.send_keys('123')
+    input_1.send_keys('000')
 
     browser.switch_to.window(old_hand)
     input_1 = browser.find_element_by_css_selector(".btn-primary")
